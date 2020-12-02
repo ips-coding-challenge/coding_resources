@@ -1,0 +1,49 @@
+.haha {
+	width: 728px;
+	height: 90px;
+	background-color: #aaa;
+	margin: 20px auto;
+}
+#youtubePlayer {
+    height: 200px;        
+}
+.tag__container{
+    margin: 10px 0;
+}
+.show-tag{
+    background-color: #ccc;
+    border-radius: 5px;
+}
+.infos {
+    .infos-channel {
+        margin: 10px 0 5px 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: orange;
+    }
+    .infos-date {
+        font-size: 14px;
+        font-style: italic;
+    }
+}
+@media (min-width: 800px) {
+    #youtubePlayer {
+        height: 300px;
+    }   
+}
+
+@media (min-width: 1024px) {
+    #youtubePlayer {
+        height: 400px;
+    }   
+}
+@media (min-width: 1200px) {
+    #youtubePlayer {
+        height: 450px;
+    }   
+}
+@media (min-width: 1600px) {
+    #youtubePlayer {
+        height: 550px;
+    }   
+}

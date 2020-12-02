@@ -1,0 +1,50 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+@import "loader";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//Sidebar
+.left_sidebar{
+  width: 200px;
+  position: absolute;
+
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    &:hover{
+      color:orange;
+    }
+  }
+}
+.mainContainer{
+  padding: 16px 32px;
+  margin-left: 200px;
+}
+.no-categories{
+  background-color: rgba(244, 67, 54, 0.26)!important;
+}
+// private messages
+.not-read {
+  font-weight: bold;
+}
+
+.messages__container {
+  .email {
+    font-size: 16px;
+    color: #ff9800;
+    font-weight: bold;
+  }
+  .message {
+    font-size: 18px;
+  }
+}
